@@ -1,0 +1,85 @@
+/* styles.css */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(28, 28, 28, 0.9);
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #A24C69;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#seller-info p {
+    font-size: 1.2em;
+}
+
+.item-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item {
+    background-color: rgba(28, 28, 28, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: calc(33.333% - 40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.item img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.item h3 {
+    color: #A24C69;
+    margin: 15px 0 10px;
+}
+
+.item p {
+    font-size: 1.1em;
+}

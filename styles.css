@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(28, 28, 28, 0.9);
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+main {
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #A24C69;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.seller-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.seller-list li {
+    margin: 10px 0;
+}
+
+.seller-list li a {
+    text-decoration: none;
+    color: #A24C69;
+    font-size: 1.2em;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.seller-list li a:hover {
+    text-decoration: underline;
+    color: #A24C69;
+}
